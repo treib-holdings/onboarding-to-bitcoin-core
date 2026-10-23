@@ -194,5 +194,7 @@ You can read a little more about the differences between these coin selection al
 
 You can read more about `waste` and the waste metric in this https://bitcoin.stackexchange.com/questions/113622/what-does-waste-metric-mean-in-the-context-of-coin-selection/113625#113625[StackExchange answer^].
 
+LearnBitcoin has a https://www.learnbitcoin.com/rabbit-hole/coin-selection[chapter^] which walks through all four algorithms and the waste metric with worked examples and links the relevant Bitcoin Core PRs.
+
 Coin selection is performed as a loop, as it may take multiple iterations to select the optimal coins for a given transaction.
 
